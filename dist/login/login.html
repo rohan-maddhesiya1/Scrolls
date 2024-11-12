@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scroll Login</title>
+    <link rel="stylesheet" href="login.css">
+    
+</head>
+
+<body>
+    <div class="container">
+        <div class="welcome-section"> 
+            <span class="logo">
+            <img src="logo.png" width="110px" height="100px">
+        </span>
+            <br><h1>WELCOME TO    </h1>
+        <br><h1>SCROLLS  </h1>
+            <p>....  login to continue access</p>
+        </div>
+
+        <div class="login-section">
+            <br><h2>Log In</h2>
+            <form id="loginForm">
+                <br><input type="email" placeholder="Email Address" style="color: white;" required  autocomplete="email" id="given-mail">
+                <br><input type="password" placeholder="Password"  style="color: white;" required  autocomplete="current-password" id="given-pass">
+                <button type="submit"> Log In </button>
+                <div class="forgot-password" >
+                         <p><a href="forgot.html">Forgot Password?</a></p>
+                        </div> 
+            </form>
+            
+        </div>
+    </div>
+    <div class="container-below">
+        <h2>Don't have an account?</h2>
+        <a href="signup.html"><button class="sign-up-button">SIGN UP</button></a>
+    </div>
+    <script src="login.js"></script>
+    
+</body>
+</html>
+
+

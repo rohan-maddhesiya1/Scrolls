@@ -1,0 +1,29 @@
+[
+    {
+        "post_no": 5,
+        "username": "EchoFlare",
+        "img": "icon/5.jpeg",
+        "time":"5:30 PM",
+        "text": "New book recommendation: 'The Midnight Library' 📚. Anyone else reading it? #Bookworm #ReadingIsLife",
+        "likeCount": 23
+      
+      },
+      {
+        "post_no": 6,
+        "username": "SereneSoul",
+        "img": "icon/6.jpeg",
+        "time":"5:06 PM",
+        "text": "Finally got around to organizing my workspace 💻. Clean space, clear mind! #ProductivityBoost #DeskGoals",
+        "likeCount": 17
+      
+      },
+      {
+        "post_no": 6,
+        "username": "WanderVerse",
+        "img": "icon/7.jpeg",
+        "time":"4:30 PM",
+        "text": "When the Wi-Fi goes out and you remember what life was like in the '90s 📵📞. #Throwback #TechLife",
+        "likeCount": 13
+      
+      }
+]

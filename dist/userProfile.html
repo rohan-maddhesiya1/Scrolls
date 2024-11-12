@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../src/output.css" />
+    <link rel="stylesheet" href="custom.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body class="bg-black text-white flex font-itim">
+
+    <!-- Sidebar on small screen -->
+
+    <span class="absolute text-white overflow-y-auto text-4xl left-3 cursor-pointer h-full w-[80px] border-r-2 border-purple-400">
+        <i class="bi bi-infinity ml-5"></i>
+        <div class="mt-32 flex items-center justify-center flex-col gap-5 pl-4">
+            <a class="">
+              <i class="bi bi-house-door text-2xl text-purple-400"></i>&nbsp; &nbsp;
+            </a>
+            <a class=" hover:text-purple-400" 
+              ><i class="bi bi-search text-2xl"></i>&nbsp; &nbsp;
+            </a
+            >
+            <a class="mr-2 hover:text-purple-400"
+              ><i class="bi bi-bell text-2xl"></i>&nbsp;&nbsp;
+              </a
+            >
+            <a class=" ml-2 hover:text-purple-400"
+              ><i class="bi bi-person text-2xl "></i>&nbsp; &nbsp;
+            </a
+            >
+          </div>
+          <div class="mt-60 flex flex-col gap-3">
+            <button class="mr-60">
+                <i class="bi bi-question-circle text-2xl"></i>
+            </button>
+            <button class="mr-60">
+                <i class="bi bi-gear text-2xl"></i>
+            </button>
+          </div>
+    </span>
+
+    <!-- Sidebar -->
+     <!-- add -  left-[-300px]-->
+    <div
+      class="sidebar fixed top-0 bottom-0 lg:left-0 left-[-300px] p-2 w-[300px] overflow-y-auto text-center bg-black border-r-2 border-purple-400 "
+    >
+<!-- sidebar logo -->
+      <div class="text-white text-xl">
+        <!-- <div class="text-right">
+            <i class="bi bi-layout-sidebar-reverse lg:hidden" onclick="Open()"></i>
+          </div> -->
+        <div class="p-2 flex items-center mt-5 justify-center">
+          <i class="bi bi-infinity text-4xl"></i>
+          <div class="font-bold text-white text-[30px] ml-3">Scroll</div>
+        </div>
+      </div>
+
+<!-- sidebar four thing -->
+      <div class="mt-32 flex items-center justify-center flex-col gap-11">
+        <a class="mr-20 hover:text-purple-400" href="home.html">
+          <i class="bi bi-house-door text-2xl "></i>&nbsp; &nbsp;
+          <span class=" font-bold">Home</span>
+        </a>
+        <a class="mr-20 hover:text-purple-400" href="search.html"><i class="bi bi-search text-2xl"></i> &nbsp;
+          <span class="font-bold">Search</span></a>
+
+        <a class="mr-9  hover:text-purple-400" href="notification.html"
+          ><i class="bi bi-bell text-2xl"></i>&nbsp;&nbsp;
+          <span class=" font-bold">Notifications</span></a
+        >
+        <a class="mr-20 hover:text-purple-400" href="profile.html"
+          ><i class="bi bi-person text-2xl text-purple-400"></i>&nbsp; &nbsp;
+          <span class=" font-bold text-purple-400">Profile</span></a
+        >
+      </div>
+<!-- help section -->
+      <div class="mt-60 flex flex-col gap-3">
+        <a class="mr-60" href="Contact us/Contact_Us.html">
+          <i class="bi bi-question-circle text-2xl"></i>
+        </a>
+        <button class="mr-60">
+            <i class="bi bi-gear text-2xl"></i>
+        </button>
+      </div>
+
+    </div>
+  <!-- Sidebar end here -->
+
+<!-- Right side start -->
+<!-- for small screen -->
+<div class="fixed top-0 right-0 h-full w-[300px]  z-50  lg:hidden">
+    <div class="flex justify-end mt-2 mr-6">
+        <img src="/dist/icon/Jg_44NYE_400x400.jpg" class="h-12 rounded-full ">
+    </div>
+</div>
+
+<!-- for large screen -->
+<div class="fixed top-0 right-0 h-full w-[300px]  z-50 sm:hidden lg:block">
+    <!-- right logo -->
+    <!-- <div class="flex justify-end mt-6 mr-6">
+        <img src="/dist/icon/Jg_44NYE_400x400.jpg" class="h-14 rounded-full ">
+    </div> -->
+
+    <!-- suggestion box -->
+    <!-- <div class=" hidden flex  sm:block">
+        <div class="w-60 h-80  ml-7 mt-24 rounded-md bg-customDark">
+            <div class="text-center font-semibold mt-4 text-lg">
+                Suggestion
+            </div>
+            <div class="flex flex-col gap-3 mt-5 items-center ">
+                <div class="flex items-center  mt-4 mr-6 ">
+                    <img src="/dist/icon/Jg_44NYE_400x400.jpg" class="h-10 rounded-full ">
+                    <span class="ml-3">new_user1</span>
+
+                </div>
+                <div class="flex items-center  mt-4 mr-6 ">
+                    <img src="/dist/icon/Jg_44NYE_400x400.jpg" class="h-10 rounded-full ">
+                    <span class="ml-3">new_user2</span>
+                    
+                </div><div class="flex items-center mt-4 mr-6 ">
+                    <img src="/dist/icon/Jg_44NYE_400x400.jpg" class="h-10 rounded-full ">
+                    <span class="ml-3">new_user3</span>
+                    
+                </div>
+                
+            </div>
+        </div>
+
+        
+    </div> -->
+    
+
+</div>
+
+
+<!-- Post area -->
+<div class=" sm:ml-[115px] sm:mr-[80px] lg:mr-[300px] lg:ml-[315px]">
+    
+    <div class="top-0 left-auto lg:left-[315px] lg:w-[900px]  sm:w-[500px] mt-10">
+
+        <div class="flex  items-center justify-center gap-20 text-lg">
+            <div class="border-b-4 border-purple-400 w-[100px] rounded-sm text-center">
+                <a>Profile</a>
+            </div>
+            
+        </div>
+    </div>
+
+   
+    <div  id="profile" class=" lg:ml-14 lg:w-[90%] sm:w-90 sm:ml-10 mt-6 h-[720px] rounded-md bg-customDark overflow-auto no-scrollbar">
+
+       <!-- post field -->
+       <div id="post-section">
+        <div id="input-Post">
+
+        </div>
+        <div class="posts" id="posted"></div>
+      </div>
+        <!-- 
+          MAIN PROFILE
+       -->
+        <div class="w-[95%] m-auto flex justify-center">
+            <button id="followButton"  class=" transition ease-in-out duration-300 w-[100%] border-2 rounded-lg border-purple-400 hover:text-purple-400 hover:border-[3px]">
+                Follow
+            </button>
+        </div>
+
+        <div class="flex justify-around mt-8 text-xl w-[95%] m-auto text-center">
+            <button  class="w-[20%] transition ease-in-out duration-300 border-b-2 border-purple-400 rounded-sm" onclick="changeBorder(this),posts()">
+                Posts
+            </button>
+            <button class="w-[20%] transition ease-in-out duration-300 border-b-2 border-transparent hover:border-purple-400 rounded-sm" onclick="changeBorder(this),replies()">
+                Replies
+            </button>
+            <button  class="w-[20%] transition ease-in-out duration-300 border-b-2 border-transparent hover:border-purple-400 rounded-sm" onclick="changeBorder(this),re_posts()">
+                Reposts
+            </button>
+        </div>
+
+        <div id="post-section">
+          
+          <div class="posts" id="posts_slide"></div>
+        </div>
+        
+
+
+    </div>
+    
+   
+</div>
+
+    <script src="./js/userProfile.js"></script>
+    
+  </body>
+</html>

@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+  /* background-image: url('background\ image3.png'); */
+    background-color: #000;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    width: 1200px;
+    height: 650px;
+    background-color: #000;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    margin-top:24px
+}
+
+.welcome-section {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    border: 3px solid #5e429e;
+    width: 50%;
+}
+
+.welcome-section h1 {
+    font-size: 60px;
+    margin-bottom: 5px;
+    margin-top: 18px;
+    margin-right: 30px;
+}
+
+.welcome-section p {
+    margin-top: 30px;
+    font-size: 20px;
+    color: white;
+}
+
+.login-section {
+    flex: 1;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    color: purple;
+    border: 3px solid #5e429e;
+    width: 50%;
+}
+
+.login-section h2 {
+    font-size: 50px;
+    margin-bottom: 50px;
+    color: #5e429e;
+}
+.login-section p{
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.login-section form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.login-section form input {
+    background-color: black;
+    border: 1px solid #5e429e;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    font-size: medium;
+    color: white;
+}
+
+
+.login-section form input::placeholder {
+    color:white;
+}
+
+.login-section form button {
+    background-color: #8b53a9;
+    color: black;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 23px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.social-button {
+    width: 80%;
+    padding: 15px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 23px;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.button-image {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 45px;
+    height: 32px;
+    object-fit: contain;
+}
+
+.logo {
+    position: absolute;
+    top: 30px;
+    left: 300px;
+    object-fit: contain;
+}
+
+.social-button.google {
+    background-color: #8b53a9;
+    padding:20px;
+}
+
+.social-button.twitter {
+    background-color: #8b53a9;
+    padding:20px;
+}
+
+.forgot-password {
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+    color: white;
+}
+
+
+.container-below {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    background-color:black;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 3px solid #5e429e;
+    height:120px;
+}
+
+.container-below p {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.container-below h2{
+    color: white;
+    margin-bottom:10px;
+}
+
+.sign-up-button {
+    background-color: #8b53a9;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.sign-up-button:hover {
+    background-color: #6b4090;
+}

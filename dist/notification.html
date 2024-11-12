@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../src/output.css" />
+    <link rel="stylesheet" href="custom.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+</head>
+
+<body class="bg-black text-white flex font-itim">
+
+    <!-- Sidebar on small screen -->
+
+    <span
+        class="absolute text-white overflow-y-auto text-4xl left-3 cursor-pointer h-full w-[80px] border-r-2 border-purple-400">
+        <i class="bi bi-infinity ml-5"></i>
+        <div class="mt-32 flex items-center justify-center flex-col gap-5 pl-4">
+            <a class="">
+                <i class="bi bi-house-door text-2xl text-purple-400"></i>&nbsp; &nbsp;
+            </a>
+            <a class=" hover:text-purple-400"><i class="bi bi-search text-2xl"></i>&nbsp; &nbsp;
+            </a>
+            <a class="mr-2 hover:text-purple-400"><i class="bi bi-bell text-2xl"></i>&nbsp;&nbsp;
+            </a>
+            <a class=" ml-2 hover:text-purple-400"><i class="bi bi-person text-2xl "></i>&nbsp; &nbsp;
+            </a>
+        </div>
+        <div class="mt-60 flex flex-col gap-3">
+            <button class="mr-60">
+                <i class="bi bi-question-circle text-2xl"></i>
+            </button>
+            <button class="mr-60">
+                <i class="bi bi-gear text-2xl"></i>
+            </button>
+        </div>
+    </span>
+
+    <!-- Sidebar -->
+    <!-- add -  left-[-300px]-->
+    <div
+        class="sidebar fixed top-0 bottom-0 lg:left-0 left-[-300px] p-2 w-[300px] overflow-y-auto text-center bg-black border-r-2 border-purple-400 ">
+        <!-- sidebar logo -->
+        <div class="text-white text-xl">
+            <!-- <div class="text-right">
+            <i class="bi bi-layout-sidebar-reverse lg:hidden" onclick="Open()"></i>
+          </div> -->
+            <div class="p-2 flex items-center mt-5 justify-center">
+                <i class="bi bi-infinity text-4xl"></i>
+                <div class="font-bold text-white text-[30px] ml-3">Scroll</div>
+            </div>
+        </div>
+
+        <!-- sidebar four thing -->
+        <div class="mt-32 flex items-center justify-center flex-col gap-11 ">
+
+            <a class="mr-20 hover:text-purple-400" href="home.html" >
+                <i class="bi bi-house-door text-2xl "></i>&nbsp; &nbsp;
+                <span class=" font-bold">Home</span>
+            </a>
+
+            <a class="mr-20 hover:text-purple-400" href="search.html"><i class="bi bi-search text-2xl"></i> &nbsp;
+                <span class="font-bold">Search</span></a>
+
+            <a class="mr-9  hover:text-purple-400" href="notification.html"><i
+                    class="bi bi-bell text-2xl text-purple-400"></i>&nbsp;&nbsp;
+                <span class=" font-bold text-purple-400">Notifications</span></a>
+
+            <a class="mr-20 hover:text-purple-400" href="profile.html"><i class="bi bi-person text-2xl "></i>&nbsp;
+                &nbsp;
+                <span class=" font-bold">Profile</span></a>
+        </div>
+        <!-- help section -->
+        <div class="mt-60 flex flex-col gap-3">
+            <a class="mr-60" href="Contact us/Contact_Us.html">
+                <i class="bi bi-question-circle text-2xl"></i>
+              </a>
+            <button class="mr-60">
+                <i class="bi bi-gear text-2xl"></i>
+            </button>
+        </div>
+
+    </div>
+    <!-- Sidebar end here -->
+
+    <!-- Right side start -->
+    <!-- for small screen -->
+    <div class="fixed top-0 right-0 h-full w-[300px]  z-50  lg:hidden">
+        <div class="flex justify-end mt-2 mr-6">
+            <img src="/dist/icon/Jg_44NYE_400x400.jpg" class="h-12 rounded-full ">
+        </div>
+    </div>
+
+    <!-- for large screen -->
+    <div class="fixed top-0 right-0 h-full w-[300px]  z-50 sm:hidden lg:block">
+        <!-- right logo -->
+        <div class="flex justify-end mt-6 mr-6">
+            <img src="/dist/icon/Jg_44NYE_400x400.jpg" class="h-14 rounded-full ">
+        </div>
+
+        <!-- suggestion box -->
+        
+
+
+    </div>
+
+
+    <!-- Post area -->
+    <div class=" sm:ml-[115px] sm:mr-[80px] lg:mr-[300px] lg:ml-[315px]">
+
+        <div class="top-0 left-auto lg:left-[315px] lg:w-[900px]  sm:w-[500px] mt-10">
+
+            <div class="flex  items-center justify-center gap-20 text-lg">
+                <div class="border-b-4 border-purple-400 w-[100px] rounded-sm text-center">
+                    <a class="hover:text-purple-400">Notifications</a>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div
+            class=" lg:ml-14 lg:w-[90%] sm:w-90 sm:ml-10 mt-6 h-[720px] rounded-md bg-customDark overflow-auto no-scrollbar">
+
+            <!-- post field -->
+            <!-- <div class="border-b-2 border-purple-500 rounded-md h-24 flex items-center justify-around gap-1">
+                <div class="pl-5">
+                    <img src="/dist/icon/Jg_44NYE_400x400.jpg" class="h-14 rounded-full">
+                </div>
+                <div class="w-[70%]">
+                    <input type="text" id="post"
+                        class="bg-customDark  w-full h-14 placeholder:text-purple-400 cursor-text font-itim text-xl focus:outline-none"
+                        placeholder="What's new?">
+                </div>
+                <div
+                    class="w-[9%] flex justify-center items-center font-itim border-2 rounded-md hover:border-purple-600 hover:text-purple-500">
+                    <button class="border-1" id="postButton " onclick="Post()">Post</button>
+                </div>
+            </div> -->
+
+            <!-- <div class="w-[95%] m-auto border-b-2 flex gap-4 mt-4 ">
+                <div ><img src="./icon/Jg_44NYE_400x400.jpg" alt="loading..." class="h-[40px] rounded-full"></div>
+                <div class="flex flex-col justify-center text-base">
+                  <div class="font">test1</div>
+                  <div class="text-xs text-gray-400">time</div>
+                  <div>hello </div>
+                  <div class="flex gap-10 mt-4 mb-4">
+                    <div><i class="bi bi-heart"></i></div>
+                    <div><i class="bi bi-chat-left-text"></i></div>
+                    
+                  </div>
+    
+                </div>
+              </div> -->
+
+              <div id="post-section" class="mt-4 mb-4">
+                <div id="input-Post">
+        
+                </div>
+                <div class="posts" id="posted"></div>
+              </div>
+
+
+
+
+        </div>
+
+
+    </div>
+
+    <script src="/dist/js/notification.js"></script>
+</body>
+
+</html>

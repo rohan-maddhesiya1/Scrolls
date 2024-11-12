@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Search</title>
+    <style>
+        /* Basic styling for the page */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        /* Container for the logo and search bar */
+        .google-container {
+            text-align: center;
+        }
+
+        /* Google logo */
+        .logo img {
+            width: 270px;
+            margin-bottom: 20px;
+        }
+
+        /* Styling the search form */
+        .search-form {
+            display: inline-block;
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* Search input box */
+        .search-input {
+            width: 100%;
+            padding: 15px;
+            font-size: 16px;
+            border: 1px solid #dcdcdc;
+            border-radius: 25px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            outline: none;
+            box-sizing: border-box;
+        }
+
+        /* Buttons for search and I'm Feeling Lucky */
+        .buttons {
+            margin-top: 20px;
+        }
+
+        .search-button, .lucky-button {
+            padding: 10px 20px;
+            font-size: 14px;
+            color: #5f6368;
+            background-color: #f8f9fa;
+            border: 1px solid #dcdcdc;
+            border-radius: 4px;
+            margin: 5px;
+            cursor: pointer;
+        }
+
+        .search-button:hover, .lucky-button:hover {
+            background-color: #e8e8e8;
+        }
+
+        /* Simple responsiveness */
+        @media (max-width: 600px) {
+            .search-input {
+                width: 90%;
+            }
+
+            .search-button, .lucky-button {
+                width: 100%;
+                box-sizing: border-box;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="google-container">
+        <!-- Google logo -->
+        <div class="logo">
+            <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="../src/output.css" />
+  <link rel="stylesheet" href="custom.css" .css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+</head>
+
+<body class="bg-black text-white flex font-itim">
+
+  <!-- Sidebar on small screen -->
+
+  <span
+    class="absolute text-white overflow-y-auto text-4xl left-3 cursor-pointer h-full w-[80px] border-r-2 border-purple-400">
+    <i class="bi bi-infinity ml-5"></i>
+    <div class="mt-32 flex items-center justify-center flex-col gap-11 pl-4">
+      <a class="">
+        <i class="bi bi-house-door text-2xl text-purple-400"></i>&nbsp; &nbsp;
+      </a>
+      <a class=" hover:text-purple-400"><i class="bi bi-search text-2xl"></i>&nbsp; &nbsp;
+      </a>
+      <a class="mr-2 hover:text-purple-400"><i class="bi bi-bell text-2xl"></i>&nbsp;&nbsp;
+      </a>
+      <a class=" ml-2 hover:text-purple-400"><i class="bi bi-person text-2xl "></i>&nbsp; &nbsp;
+      </a>
+    </div>
+    <div class="mt-60 flex flex-col gap-3">
+      <button class="mr-60">
+        <i class="bi bi-question-circle text-2xl"></i>
+      </button>
+      <button class="mr-60">
+        <i class="bi bi-gear text-2xl"></i>
+      </button>
+    </div>
+  </span>
+
+  <!-- Sidebar -->
+  <!-- add -  left-[-300px]-->
+  <div
+    class="sidebar fixed top-0 bottom-0 lg:left-0 left-[-300px] p-2 w-[300px] overflow-y-auto text-center bg-black border-r-2 border-purple-400 ">
+    <!-- sidebar logo -->
+    <div class="text-white text-xl">
+      <!-- <div class="text-right">
+            <i class="bi bi-layout-sidebar-reverse lg:hidden" onclick="Open()"></i>
+          </div> -->
+      <div class="p-2 flex items-center mt-5 justify-center">
+        <i class="bi bi-infinity text-4xl"></i>
+        <div class="font-bold text-white text-[30px] ml-3">Scroll</div>
+      </div>
+    </div>
+
+    <!-- sidebar four thing -->
+    <div class="mt-32 flex items-center justify-center flex-col gap-11">
+      <a class="mr-20 hover:text-purple-400" href="home.html">
+        <i class="bi bi-house-door text-2xl "></i>&nbsp; &nbsp;
+        <span class=" font-bold">Home</span>
+      </a>
+      <a class="mr-20 hover:text-purple-400" href="search.html"><i class="bi bi-search text-2xl text-purple-400"></i> &nbsp;
+        <span class="font-bold text-purple-400">Search</span></a>
+      <a class="mr-9  hover:text-purple-400" href="notification.html"><i class="bi bi-bell text-2xl"></i>&nbsp;&nbsp;
+        <span class=" font-bold">Notifications</span></a>
+      <a class="mr-20 hover:text-purple-400" href="profile.html"><i class="bi bi-person text-2xl"></i>&nbsp; &nbsp;
+        <span class=" font-bold">Profile</span></a>
+    </div>
+    <!-- help section -->
+    <div class="mt-60 flex flex-col gap-3">
+      <a class="mr-60" href="Contact us/Contact_Us.html">
+        <i class="bi bi-question-circle text-2xl"></i>
+      </a>
+      <button class="mr-60">
+        <a href="login/login.html">
+          <i class="bi bi-box-arrow-left text-2xl"></i>
+      </button>
+    </div>
+
+  </div>
+  <!-- Sidebar end here -->
+
+  <!-- Right side start -->
+  <!-- for small screen -->
+  <div class="fixed top-0 right-0 h-full w-[300px]  z-50  lg:hidden">
+    <div class="flex justify-end mt-2 mr-6">
+      <img src="/dist/icon/Jg_44NYE_400x400.jpg" class="h-12 rounded-full ">
+    </div>
+  </div>
+
+  <!-- for large screen -->
+  <div class="fixed top-0 right-0 h-full w-[300px]  z-50 sm:hidden lg:block">
+    <!-- right logo -->
+    <div class="flex justify-end mt-6 mr-6">
+      <img src="/dist/icon/Jg_44NYE_400x400.jpg" class="h-14 rounded-full ">
+    </div>
+
+    <!-- suggestion box -->
+    <div class="flex sm:block">
+      <div class="w-60 h-80 ml-7 mt-24 rounded-md bg-customDark">
+        <div class="text-center font-semibold mt-4 text-lg pt-4">Suggestion</div>
+        <div class="flex flex-col gap-3 mt-5 ml-auto w-[95%]">
+          <div class="flex items-center mt-4 mr-6">
+            <img
+              src="/dist/icon/5.jpeg"
+              class="h-10 rounded-lg"
+            />
+            <button onclick="setUsernameSession('EchoFlare')">
+              <span class="ml-3">EchoFlare</span>
+            </button>
+          </div>
+          <div class="flex items-center mt-4 mr-6">
+            <img
+              src="/dist/icon/6.jpeg"
+              class="h-10 rounded-lg"
+            />
+            <span class="ml-3">SereneSoul</span>
+          </div>
+          <div class="flex items-center mt-4 mr-6">
+            <img
+              src="/dist/icon/8.jpeg"
+              class="h-10 rounded-lg"
+            />
+            <span class="ml-3">NovaWhispers</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    </div>
+
+
+  </div>
+
+
+  <!-- Post area -->
+  <div class=" sm:ml-[115px] sm:mr-[80px] lg:mr-[300px] lg:ml-[315px]">
+    <div class="top-0 left-auto lg:left-[315px] lg:w-[900px]  sm:w-[500px] mt-10">
+
+      <div class="flex  items-center justify-center gap-20 text-lg">
+          <div class="border-b-4 border-purple-400 w-[100px] rounded-sm text-center">
+              <a class="hover:text-purple-400">Search</a>
+          </div>
+
+      </div>
+  
+
+  </div>
+
+    <div class=" ml-14  lg:w-[800px] sm:w-[550px] mt-10 h-[720px] rounded-md bg-customDark overflow-auto no-scrollbar">
+        
+
+      <div class="w-[90%] m-auto  h-[50px] mt-3 rounded-lg">
+        <div class="flex flex-row items-center justify-around mt-3 border-2 h-10 rounded-lg border-purple-400">
+          <div class="w-[75%]">
+            <input type="text" placeholder="Search Profile" class="focus:outline-none bg-customDark w-[100%]  " id="user-name">
+          </div>
+           
+          <div class="ml-16">
+            <button onclick="Search()"><i class="bi bi-search"></i></button>
+          </div>
+        </div>
+        
+        <div id="searched-profile">
+    
+        </div>
+       
+
+
+      </div>
+
+
+    </div>
+
+
+  </div>
+
+  <script src="/dist/js/search.js"></script>
+</body>
+
+</html>

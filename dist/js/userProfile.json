@@ -1,0 +1,110 @@
+[
+    {
+        "name": "BlissfulAura",
+        "username": "BlissfulAura",
+        "img": "icon/474c5e50-7be2-4f2d-aad9-d9a145038530.jpeg",
+        "bio": "Exploring life one adventure at a time 🌍✈️",
+        "followers": 60,
+        "following": 24,
+        "posts":{
+            "post1":{
+                "time": "8:04 PM",
+                "content":"Chasing sunsets 🌅 and living for the golden hour moments ✨ #SunsetVibes #GoldenHour"
+            }
+
+        }
+    },
+    {
+        "name": "Dreamy",
+        "username": "DreamyWaves",
+        "img": "icon/f47a5e33-1956-48eb-888e-9484db27a998.jpeg",
+        "bio": "Coffee lover, book reader, world traveler ☕📚🌎",
+        "followers": 99,
+        "following": 34,
+        "posts":{
+            "post1":{
+                "time": "8:04 PM",
+                "content":"Just tried out the new café in town ☕. Their caramel latte is next-level! 😍 #CoffeeLove #CafeHopping"
+            }
+
+        }
+    },
+    {
+        "name": "knight",
+        "username": "knight",
+        "img": "icon/4.jpeg",
+        "bio": "Dream big. Work hard. Stay humble 💭💪✨",
+        "followers": 83,
+        "following": 45,
+        "posts":{
+            "post1":{
+                "time": "7:04 PM",
+                "content":"Sometimes, all you need is a good playlist and a long drive 🚗🎶 #MusicIsLife #RoadTripVibes"
+            }
+
+        }
+    },
+    {
+        "name": "someone",
+        "username": "someone",
+        "img": "icon/ᑉ³.jpeg",
+        "bio": "Cat whisperer and professional napper 🐱💤",
+        "followers": 56,
+        "following": 12,
+        "posts":{
+            "post1":{
+                "time": "7:04 PM",
+                "content":"Sometimes, all you need is a good playlist and a long drive 🚗🎶 #MusicIsLife #RoadTripVibes"
+            }
+
+        }
+    },
+    {
+        "name": "Flare",
+        "username": "EchoFlare",
+        "img": "icon/5.jpeg",
+        "bio": "Optimist, foodie, and wanderlust enthusiast 🌞🍕🌍",
+        "followers": 76,
+        "following": 67,
+        "posts":{
+            "post1":{
+                "time": "7:04 PM",
+                "content":"Sometimes, all you need is a good playlist and a long drive 🚗🎶 #MusicIsLife #RoadTripVibes"
+            }
+        }
+    },
+    {
+        "name": "Serene",
+        "username": "SereneSoul",
+        "img": "icon/6.jpeg",
+        "bio": "Just a small-town soul with big dreams 🌸✨",
+        "followers": 69,
+        "following": 23
+    },
+    {
+        "name": "Wanderer",
+        "username": "WanderVerse",
+        "img": "icon/7.jpeg",
+        "bio": "Exploring life one adventure at a time 🌍✈️",
+        "followers": 89,
+        "following": 30
+    },
+    {
+        "name": "Nova",
+        "username": "NovaWhispers",
+        "img": "icon/8.jpeg",
+        "bio": "Happiness is homemade 🏠❤️",
+        "followers": 89,
+        "following": 30
+    },
+    {
+        "name": "Horizon",
+        "username": "InfiniteHorizon",
+        "img": "icon/9.jpeg",
+        "bio": "Embracing the journey, wherever it takes me 🚗💫",
+        "followers": 89,
+        "following": 30
+    }
+
+
+]

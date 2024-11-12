@@ -1,0 +1,49 @@
+[
+{
+  "post_no": 4,
+  "username": "someone",
+  "img": "icon/ᑉ³.jpeg",
+  "time":"56 minutes",
+  "text": "re-posted your recent post.",
+  "likeCount": 11
+
+},
+{
+"post_no": 5,
+"username": "EchoFlare",
+"img": "icon/5.jpeg",
+"time":"2 hours",
+"text": "liked your post.",
+"likeCount": 23
+
+},
+{
+"post_no": 6,
+"username": "SereneSoul",
+"img": "icon/6.jpeg",
+"time":"4 hours",
+"text": "posted after a long time.",
+"likeCount": 17
+
+},
+{
+"post_no": 6,
+"username": "WanderVerse",
+"img": "icon/7.jpeg",
+"time":"5 hours",
+"text": "commented on your post.",
+"likeCount": 13
+
+},
+{
+"post_no": 7,
+"username": "NovaWhispers",
+"img": "icon/8.jpeg",
+"time":"10 hours",
+"text": "Liked your post.",
+"likeCount": 56
+
+}
+  
+  
+]
